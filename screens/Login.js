@@ -12,7 +12,7 @@ export default function App() {
 
             <LogoImage2 source={require('../src/images/Group.png')}/>
             <TextInputPer text="Usuario"/>
-            <TextInputPerButt text="Usuario"/>
+            <TextInputPerButt text="Contraseña"/>
             <BlueButtton onPress= {() => navegacion.navigate("Home")} text="Sing in"/>
             <View style={{ flex: 1, flexDirection:'row',gap:40,marginTop:15}}>
                 <TextPersonalizadosSolos onPress= {() => navegacion.navigate("Contrasenia")} text="Olvido su contraseña?"/>
